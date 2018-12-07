@@ -18,6 +18,7 @@
         android:layout_marginTop="100dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
+        android:textStyle="bold"
         android:inputType="number"
         />
 
@@ -32,6 +33,7 @@
         android:layout_marginTop="165dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
+        android:textStyle="bold"
         android:inputType="textPassword"
         />
 
@@ -45,6 +47,7 @@
         android:layout_marginRight="50dp"
         android:text="@string/Register"
         android:background="@drawable/bt_shape"
+        android:textStyle="bold"
         android:textSize="15sp"
         />
 
@@ -65,6 +68,7 @@
             android:layout_gravity="center"
             android:text="@string/Register"
             android:textColor="#FFFFFF"
+            android:textStyle="bold"
             android:textSize="20sp" />
 
     </android.support.v7.widget.Toolbar>
