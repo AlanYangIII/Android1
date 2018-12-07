@@ -48,7 +48,8 @@
         android:text="@string/Register"
         android:background="@drawable/bt_shape"
         android:textStyle="bold"
-        android:textSize="15sp"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
         />
 
 
