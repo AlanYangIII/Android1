@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:id="@+id/image_view1"
+        android:layout_width="match_parent"
+        android:layout_height="251dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/bg_main">
+    </ImageView>
+
+
+    <ImageView
+        android:id="@+id/image_view2"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignStart="@+id/image_view1"
+        android:layout_alignEnd="@+id/image_view1"
+        android:layout_marginTop="120dp"
+        android:src="@mipmap/ic_icon" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_view1"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-25dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="100dp"
+        android:text="@string/LogIn"
+        android:background="@drawable/bt_shapewhite"
+        android:textColor="#FF4040"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-95dp"
+        android:layout_marginRight="50dp"
+        android:text="@string/Register"
+        android:background="@drawable/bt_shapewhite"
+        android:textColor="#FF4040"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+
+        <ImageView
+            android:id="@+id/view1"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="60dp"
+            android:src="@mipmap/ic_wx"
+            android:contentDescription="@string/WeChat" />
+
+        <ImageView
+            android:id="@+id/view2"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="60dp"
+            android:src="@mipmap/ic_qq"
+            android:contentDescription="@string/QQ" />
+
+        <ImageView
+            android:id="@+id/view3"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="60dp"
+            android:src="@mipmap/ic_wb"
+            android:contentDescription="@string/WeiBo" />
+
+        <ImageView
+            android:id="@+id/view4"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="60dp"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_wy"
+            android:contentDescription="@string/WangYi" />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:layout_marginBottom="37dp"
+            android:textStyle="bold"
+            android:text="@string/WeChat"
+            />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:layout_marginBottom="37dp"
+            android:textStyle="bold"
+            android:text="@string/QQ"
+            />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:layout_marginBottom="37dp"
+            android:textStyle="bold"
+            android:text="@string/WeiBo"
+            />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:layout_marginBottom="37dp"
+            android:textStyle="bold"
+            android:text="@string/WangYi"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+    <TextView
+        android:id="@+id/textRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="130dp"
+        android:text="@string/OtherRegisters"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+
+
+</RelativeLayout>
